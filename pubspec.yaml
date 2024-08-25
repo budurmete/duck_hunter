@@ -1,0 +1,31 @@
+name: ordek_avi
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flame: ^1.17.0
+  audioplayers: ^6.0.0
+  # Remove sprite and spritewidget if not needed
+  # sprite: ^0.0.3
+  # spritewidget: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/duck.png
+    - assets/duck_spritesheet.png
+    - assets/arkaplan.jfif
+
